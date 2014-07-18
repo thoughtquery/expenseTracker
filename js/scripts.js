@@ -21,7 +21,7 @@ $(document).ready(function() {
 //Appending item & amnt to table//
 
   if(amnt && item && quant){
-    $(".info").append("<tr>" + "<td>" + Purchase.description + "</td>" + "<td>" + Purchase.cost + "</td>" + "<td>" + Purchase.quantity + "</td>" + "<td>" + Purchase.totalcost() + "</td>" + "</tr>");
+    $(".info").append("<tr>" + "<td>" + Purchase.description + "</td>" + "<td>$" + Purchase.cost + "</td>" + "<td>" + Purchase.quantity + "</td>" + "<td>$" + Purchase.totalcost() + "</td>" + "</tr>");
         }
      });
   });
